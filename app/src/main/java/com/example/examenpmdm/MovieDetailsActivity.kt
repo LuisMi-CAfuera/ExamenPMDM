@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import com.example.examenpmdm.databinding.ActivityMainBinding
 import com.example.examenpmdm.databinding.ActivityMovieDetailsBinding
 import com.google.gson.Gson
 
@@ -13,6 +14,7 @@ class MovieDetailsActivity : AppCompatActivity() {
     private lateinit var binding :ActivityMovieDetailsBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        binding = ActivityMovieDetailsBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.button.isEnabled = false
         val shared = getSharedPreferences("Peli", Context.MODE_PRIVATE)
