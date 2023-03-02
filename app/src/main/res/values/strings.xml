@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ExamenPMDM</string>
+    <string name="titulo">Titulo</string>
+    <string name="duracion">Duracion</string>
+    <string name="duracion_en_minutos">Duracion en minutos</string>
+    <string name="pasar_activity">Pasar Activity</string>
+    <string name="nombre_director">Nombre Director</string>
+    <string name="a_o_lanzamiento">Año Lanzamiento</string>
+    <string name="nombre">Nombre</string>
+    <string name="a_o">Año</string>
+    <string name="volver">Volver</string>
+    <string name="detalles">Detalles</string>
+    <string name="otra_peli">Otra peli</string>
+    <string name="atras">Atras</string>
+</resources>
